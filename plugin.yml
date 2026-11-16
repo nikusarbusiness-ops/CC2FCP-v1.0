@@ -1,0 +1,19 @@
+name: ClanPvP
+version: 1.0.1
+main: de.clanpvp.ClanPvP
+api-version: '1.21'
+description: Clan system, clan chat, combat tag, loot menu, and player record
+commands:
+  clan:
+    description: Clan management commands
+    usage: /clan help
+    aliases:
+      - clans
+  cc:
+    description: Clan chat
+    usage: /cc [message]
+  rekord:
+    description: Displays the all-time player record
+    usage: /rekord
+    aliases:
+      - record
